@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <textarea class="boxes" id="input"></textarea><br>
+            <div>
+                <label for="dropdown">Find me:</label>
+                <select name="findWhat" id="dropdown">
+                    <option value="rel_syn">Synonyms</option>
+                    <option value="rel_ant">Antonyms</option>
+                    <option value="rel_hom">Homophones</option>
+                    <option value="rel_cns">Consonant match</option>
+                    <option value="rel_rhy">Rhymes</option>
+                    <option value="rel_rtg">Accociated Words</option>
+                    <option value="sl">Words That Sound Similar</option>
+                    <option value="ml">Words That Means like</option>
+
+                </select>
+    
+                <button id="search">Search</button>
+            </div>
+            <label for="output" id="label"></label>
+            <textarea readonly class="boxes" id="output"></textarea>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
+

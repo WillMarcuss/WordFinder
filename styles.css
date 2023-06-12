@@ -1,0 +1,9 @@
+.wrapper{
+    display:grid;
+    width: 500px;
+    height: 200px;
+}
+
+.boxes{
+    background-color: rgb(135, 255, 255);
+}

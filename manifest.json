@@ -1,0 +1,11 @@
+{
+    "name": "Word Finder",
+    "version": "1.0.1",
+    "description": "Multi use program that finds requested type of word such as synonym, antonym, rhyming words and much more",
+    "manifest_version": 3,
+    "author": "William Marcus",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Word Finder"
+    }
+}
